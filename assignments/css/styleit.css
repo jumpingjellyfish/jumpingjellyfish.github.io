@@ -3,9 +3,11 @@ h1{text-align: center;
     padding-bottom: 25px;
     background-color: #ee8d6a;
     color: #ffffff;
+    font-family: 'Dancing Script', cursive;
 }
 
 h2{padding-top: 12px;
+    font-family: 'Mansalva', cursive;
 }
 
 nav{
