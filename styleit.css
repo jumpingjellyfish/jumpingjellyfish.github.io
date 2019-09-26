@@ -4,14 +4,25 @@ h1{text-align: center;
     background-color: #ee8d6a;
     color: #ffffff;
     font-family: 'Dancing Script', cursive;
+    margin: 0.15rem;
 }
 
 h2{padding-top: 12px;
     font-family: 'Mansalva', cursive;
 }
 
+header{ margin-top: 10px;
+    max-width: 750px;
+}
+
 nav{
     padding-bottom: 10px;
+    max-width: 750px;
+}
+
+main{
+    max-width: 750px;
+
 }
 
 footer{text-align: center;
