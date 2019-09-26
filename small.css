@@ -1,0 +1,12 @@
+@media only screen and (min-width: em){
+
+img {
+    height: 220px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0.75rem;
+    
+    }
+
+}
