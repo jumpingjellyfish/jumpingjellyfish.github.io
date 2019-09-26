@@ -11,18 +11,14 @@ h2{padding-top: 12px;
     font-family: 'Mansalva', cursive;
 }
 
-header{ margin-top: 10px;
+header, footer, main{
     max-width: 750px;
+    margin-top: 10px;
 }
 
 nav{
     padding-bottom: 10px;
     max-width: 750px;
-}
-
-main{
-    max-width: 750px;
-
 }
 
 footer{text-align: center;
