@@ -28,3 +28,18 @@ footer a:link{color: #ffffff;
 header, footer, main
 {max-width: 750px;
     margin-top: 10px; }
+
+footer{
+    text-align: center;
+        background-color: #ee8d6a;
+        color: #ffffff;
+        padding-top: 8px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+        margin-right:auto;
+        margin-left:auto;
+        max-width: 750px;
+    }
+
+footer a:link{color: #ffffff;
+}
