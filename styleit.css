@@ -32,6 +32,11 @@ footer{text-align: center;
     max-width: 750px;
 }
 footer a:link{color: #ffffff;
+    text-decoration:none;
+}
+footer p{  font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 #name{
