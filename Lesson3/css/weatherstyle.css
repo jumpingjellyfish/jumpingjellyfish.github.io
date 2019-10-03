@@ -1,3 +1,8 @@
+body{
+    font-family: 'Manjari', sans-serif;
+
+}
+
 header img{
     width: 120px;
     margin:0px;
@@ -9,6 +14,11 @@ header{
     padding-top: 32px;
     padding-bottom: 8px;
     background-color: #f3610ce0;
+     display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content:center;
+        padding: 10px;
 }
 header h2{
     font-style: italic;
@@ -30,41 +40,56 @@ h2{
 nav a:link{
     text-decoration: none;
     color: #000000;
+    display: block;
+    padding: .75rem;
+    text-align:center;
+    font-family: 'Manjari', sans-serif;
+
 }
+nav a:hover{
+    background-color: #ffffff;
+}
+
 nav{   text-align:center;   
     background-color:#ffc31e;
-    padding-top: 14px;
-    padding-bottom: 3px;
+    font-family: 'Manjari', sans-serif;
 
 }
 
 nav ul{list-style-type: none;
-        margin-top: 0px;
-        padding: 0px;
+        margin:0px;
+        padding:0px;
         overflow:hidden;
+        font-family: 'Manjari', sans-serif;
+
 }
 nav li{font-size: 20px;
-    font-family: font-family: 'Manjari', sans-serif;
-    display:inline;
-    padding-right: 60px;
+    font-family: 'Manjari', sans-serif;
 }
 
 main{
     font-family: 'Manjari', sans-serif;
-
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 footer{
     text-align: center;
     font-family: 'Manjari', sans-serif;
     font-size: 18px;
-        background-color: #f3610ce0;
-        color: #ffffff;
-        padding-top: 8px;
-        padding-bottom: 30px;
-        margin-top: 10px;
-        margin-right:auto;
-        margin-left:auto;
+    background-color: #f3610ce0;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    margin-right:auto;
+    margin-left:auto;
+    flex: 0 1 100%;
+    height: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
     }
 
 footer a:link{color: #ffffff;
@@ -88,7 +113,21 @@ footer p{  font-family: 'Manjari', sans-serif;
         padding-right: 6px;
         font-family: 'Manjari', sans-serif;
 }
-span:nth-child(3){
-    border-left: 1.5px solid #ffffff;
-    padding-left: 6px;
+
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+nav ul{
+        display: flex;}
+
+    nav ul li{flex: 1 1 100%;}
+
+main{
+    grid-template-columns: 1fr 1fr;
+}
+}
+/*desktop view*/
+@media only screen and (min-width: 60em) {
+main{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }

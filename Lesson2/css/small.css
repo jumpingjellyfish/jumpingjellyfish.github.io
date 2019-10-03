@@ -1,9 +1,112 @@
-@media only screen and (min-width: 15em){
 
-    main {
-     display: grid;
-      grid-template-columns: 1fr;
+h1{text-align: center;
+    padding-top: 15px;
+    background-color: #ee8d6a;
+    font-family: 'Mansalva', cursive;
+    font-size: 40px;
+    font-style: oblique;
+    margin-top: 10px;
 }
-section{font-size: 0.8rem;
+
+#me{font-family:'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
 }
+
+img{  background-color: #ee8d6a;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    max-width:75%;
+    display:block;
+
+}
+section{
+    text-align: center;
+    padding: 2px;
+    margin: 0 auto;
+    display:inline-block;
+}
+section:nth-child(3){
+        grid-column: span 1;
+
+}
+main{ display:grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+
+main a:link{
+    color: #000000;
+}
+
+header{text-align: center;
+    padding-bottom: 8px;
+    background-color: #ee8d6a;
+    margin: 0 auto;
+}
+
+h2{     font-family: 'Mansalva', cursive;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+}
+
+p{font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+
+}
+
+body{
+    font-weight:normal;
+    margin: 0 auto;
+}
+
+header, footer, main
+{max-width: 1200px;
+    margin-top: 10px; }
+
+footer{
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 23px;
+        background-color: #ee8d6a;
+        color: #ffffff;
+        padding-top: 8px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+footer a:link{color: #ffffff;
+    text-decoration: none;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+footer p{    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#name{
+    border-right: 1.5px solid #ffffff;
+    padding-right: 6px;
+    border-left: 1.5px solid #ffffff;
+    padding-left: 6px;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+
+}
+
+#year, #country{
+    border-right: 1.5px solid #ffffff;
+    padding-right: 6px;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
 }

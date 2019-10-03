@@ -1,30 +1,13 @@
 @media only screen and (min-width: 37.5em){
 
     
-    main {
-		display:grid;
+    main { 
 		grid-template-columns: 1fr 1fr;
-		width: 700px;
-		margin-bottom: 35px;
-	}
-
-	section{
-		width: 330px;
-		font-size: .9rem;
+		padding-bottom: 120px;
 	}
 
 	section:nth-child(3) {
 		grid-column: span 2;
-		width: 700px;
-		padding-top: 40px;
-		margin-left:auto;
-		margin-right:auto;
 	}
 
-	img {
-		display: block;
-		width: 100%;
-		margin: 1px;
-		background-color: #ee8d6a;
-	}
 }
