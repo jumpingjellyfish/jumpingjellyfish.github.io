@@ -1,7 +1,29 @@
 body{
     font-family: 'Manjari', sans-serif;
 
+   
 }
+main section {
+    width: 1050px;
+    text-align: center;
+margin-left: auto;
+margin-right: auto;
+    padding-left: 200px;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    
+}
+section p{ font-size: 20px;
+
+}
+h2:nth-child(5){
+    text-decoration: underline;
+}
+
+h2:nth-child(7){
+    text-decoration: underline;
+}
+
 
 header img{
     width: 120px;
@@ -71,6 +93,7 @@ main{
     font-family: 'Manjari', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
 footer{
