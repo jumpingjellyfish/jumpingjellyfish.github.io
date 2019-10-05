@@ -37,11 +37,11 @@ h2{
     font-family: 'Manjari', sans-serif;
     font-size: 20px;
 }
-h2:nth-child(5){
+h2:nth-child(7){
     text-decoration: underline;
 }
 
-h2:nth-child(7){
+h2:nth-child(10){
     text-decoration: underline;
 }
 
@@ -90,12 +90,19 @@ main section {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 200px;
     padding-top: 32px;
-    padding-bottom: 28px;   
+    padding-bottom: 28px; 
+}
+section p{font-size: 20px;}
+
+.largefont{
+    font-family: 'Press Start 2P', cursive;
 }
 
-section p{ font-size: 20px;}
+.fonts{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 footer{
     text-align: center;
@@ -137,21 +144,6 @@ footer p{  font-family: 'Manjari', sans-serif;
         padding-right: 6px;
         font-family: 'Manjari', sans-serif;
 }
-
-/*tablet view*/
-@media only screen and (min-width: 37.5em) {
-nav ul{
-        display: flex;}
-
-    nav ul li{flex: 1 1 100%;}
-
-main{
-    grid-template-columns: 1fr 1fr;
-}
-}
-/*desktop view*/
-@media only screen and (min-width: 60em) {
-main{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+.colorscheme img{
+    width: 600px;
 }
