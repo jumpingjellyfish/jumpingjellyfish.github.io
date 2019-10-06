@@ -146,3 +146,7 @@ footer p{  font-family: 'Manjari', sans-serif;
 .colorscheme img{
     width: 600px;
 }
+#map img{display: flex;
+    grid-template-columns: 1fr;
+    width: 600px;
+    }

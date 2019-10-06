@@ -10,9 +10,14 @@
         margin-left: auto;
         margin-right: auto;
         padding: 0px;
-        width: 600px;
+        width: 580px;
         text-align: center;
         display:flex;
+    }
+
+    #map img{display: flex;
+        grid-template-columns: 1fr;
+        width: 800px
     }
     
     .fonts:nth-child(3){
