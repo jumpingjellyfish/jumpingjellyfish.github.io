@@ -89,8 +89,12 @@ nav{   text-align:center;
     color: #000;
     background-color: #ffc31e;
     font-weight: 700;
-
 }
+
+.navigation a:visited{
+    background-color:#ffffff;
+}
+
 .responsive li{
     display:block;
 }
@@ -120,16 +124,16 @@ main section {
 }
 section p{font-size: 20px;}
 
-.placeholder{
-    display: block;
-    border: solid;
+.cold{ 
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
+}
+.cold img{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 250px;
+ 
 }
 
 footer{

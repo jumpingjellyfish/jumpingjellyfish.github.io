@@ -31,6 +31,10 @@
 	.navigation li {
 		display: block;
 		flex: 1 1 100%;
-	}
+    }
+    .cold img{        
+        width: 100%;
+        height:350px;
+    }
 	
     }
