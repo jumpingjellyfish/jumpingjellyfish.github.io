@@ -35,7 +35,6 @@ div{
     color: #ffffff;
     font-weight: lighter;
     font-size: 20px;
-    padding-bottom: px;
     text-align: center;
 }
 
@@ -117,7 +116,6 @@ main section {
     padding-bottom: 28px; 
 }
 section p{font-size: 20px;}
-
 .cold img{ 
     margin-left: auto;
     margin-right: auto;
@@ -127,8 +125,9 @@ section p{font-size: 20px;}
 .degrees{
     color:blue;
 }
-.herodiv{ position: relative;
+.herodiv{ position: relative; 
 }
+
 .weathersummary{position: absolute;
     top: 30px;
     left: 30px;
@@ -136,11 +135,46 @@ section p{font-size: 20px;}
     height: 250px;
     color: black;
     background-color: white;
-    padding-top: 15px;
+    padding-top: 10px;
     font-style: normal;
-    box-shadow: 0 0 30px orange;
+    box-shadow: 0 0 30px orange;}
+.weathersummary h3{
+    font-size: 23px;
+}
+.weathersummary p{
+    font-size: 20px;
 }
 
+.forecast{
+    display:none;
+}
+
+.articlepage{ color: black;
+    background-color: rgb(252, 136, 41);
+    padding: 10px;
+    background-image: radial-gradient(orange,#ffc31e);
+    text-align: left;
+}
+.articlepage h3{ text-align: center;
+    padding-bottom: 0px;
+}
+.article {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.article p{
+    padding-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.street img{
+    display: none;
+}
+
+.placeholder{
+    color: black;
+}
 footer{
     text-align: center;
     font-family: 'Manjari', sans-serif;
