@@ -68,6 +68,7 @@
     }
     .articlepage h3{
         padding-left: 5px;
+        text-align: left;
     }
     .articlepage p{text-align: left;
         margin-left: auto;
@@ -89,18 +90,25 @@ padding-bottom: 5px;}
     float: right;
 }
 
-
 .contact{
-    border: solid;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-    text-align: center;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    
+}
+.contactinfo{
+    text-align: left;
 }
 
+.map img{ width: 400px;
+padding: 20px;
+margin: 0px;}
+
+.map{display: flex;
+    float: left;
+}
     footer{text-align: center;
         margin-left: auto;
         margin-right: auto;

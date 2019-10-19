@@ -47,7 +47,7 @@ nav a:link{
     font-family: 'Manjari', sans-serif;
 
 }
-.navigation a:active{
+.active{
     background-color: #ec8c0ec2;
     border: 1px solid;
 }
@@ -154,6 +154,8 @@ section p{font-size: 20px;}
     padding: 10px;
     background-image: radial-gradient(orange,#ffc31e);
     text-align: left;
+    margin-top:70px;
+
 }
 .articlepage h3{ text-align: center;
     padding-bottom: 0px;
@@ -172,8 +174,18 @@ section p{font-size: 20px;}
     display: none;
 }
 
-.placeholder{
+.contactinfo{
     color: black;
+}
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    padding: 0px;
+}
+.map{
+    display: none;
 }
 footer{
     text-align: center;
