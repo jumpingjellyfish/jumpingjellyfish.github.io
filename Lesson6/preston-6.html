@@ -39,7 +39,14 @@
     <main>
            <h2>PRESTON IDAHO</h2>
            <div class="herodiv">
-           <div class="cold"><img src="images/cold.jpg" alt="photo of street"/>
+           <div class="cold">
+               <picture>
+                    <source srcset="images/heromedium.jpg" media="(min-width: 620px)
+                    and (max-width: 950px)">
+                    <source srcset="images/herolarge.jpg" media="(min-width: 951px)">
+                <img src="images/herosmall.jpg" alt="Hero sample photo of sunshine">
+
+               </picture>
             </div>
                 <section class="weathersummary">
                     <h3><u>Weather Summary</u></h3>
@@ -101,7 +108,7 @@
         </div>
         <section>
             <div class="contact">
-                <div class="map"><img src="images/map.PNG" alt="photo of street"/>
+                <div class="map"><img src="images/map.jpg" alt="photo of street"/>
                 </div>
             <h3>Contact Information</h3>
             <div class="contactinfo">
