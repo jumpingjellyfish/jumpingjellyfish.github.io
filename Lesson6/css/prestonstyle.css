@@ -140,9 +140,10 @@ section p{font-size: 20px;}
 .cold{
     display: flex;
 }
-.degrees{
-    color:blue;
+.degrees, .high, .wind, .chill{
+    color:rgb(0, 153, 255);
 }
+
 .herodiv{ position: relative; 
 }
 
