@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ana Kendall">
+    <meta name="description" content="Lazy loading activity for CIT 230 at BYU-Idaho">
+    <title>Street Smart Climate | Preston</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/prestonstyle.css">
+    <link rel="stylesheet" href="css/pmedium.css">
+    <link rel="stylesheet" href="css/plarge.css">
+    
+</head>
+
+    <body>
+        <header>
+                <h1><img src="images/logo.png" alt="street smart climate logo"/>
+                Street Smart Climate</h1>
+                <div>Be smart...weather wise</div>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li class="active"><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h1 class="content">Progressive Loading Images</h1>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/daylight.jpg" alt="photo of mountains in the daylight">
+                </picture>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/city.jpg" alt="photo of a train station">
+                </picture>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/iceberg.jpg" alt="photo of an iceberg">
+                </picture>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/winter.jpg" alt="photo of a snowy bench">
+                </picture>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/woods.jpg" alt="photo of outdoor woods">
+                </picture>
+
+
+        </main>
+
+        <script src="js/lazyjava.js"></script>
+
+
+
+        <footer>
+                <p>&copy;Street Smart Climate
+                <span id="name">Ana Kendall</span> 
+                <span id="home"><a href="https://jumpingjellyfish.github.io">Home</a></span><br>
+                <span id ="currentdate"></span>
+                <script type="text/javascript" src="js/today.js"></script></p>
+                <script type="text/javascript" src="js/hamburgermenu.js"></script>
+            </footer>
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="js/webfont.js"></script>
+</body>
+</html>
