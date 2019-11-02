@@ -1,0 +1,27 @@
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+    nav ul{
+            display: flex;}
+    
+    nav ul li{flex: 1 1 100%;}  
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+
+	main{
+		grid-template-columns: 1fr 1fr;
+	}
+	.gallery{
+		color: black;
+		align-items: center;
+		margin-bottom: 2400px;
+	}
+}

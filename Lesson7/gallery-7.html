@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ana Kendall">
+    <meta name="description" content="gallery activity for CIT 230 class at BYU-Idaho">
+    <title>Street Smart Climate | Preston</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/gallerystyle.css">
+    <link rel="stylesheet" href="css/gallerymedium.css">
+    <link rel="stylesheet" href="css/gallerylarge.css">
+    
+</head>
+    <body>
+    <header>
+            <h1><img src="images/logo.png" alt="street smart climate logo"/>
+            Street Smart Climate</h1>
+            <div>Be smart...weather wise</div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 class="content">WEATHER GALLERY</h1>
+            <div class="gallery"> 
+            <figure>   
+            <picture>
+                    <img src="images/placeholder.jpg" data-src="images/sunny.jpg" alt="sunny sky pic">
+                </picture>
+                <figcaption>Sunny Skies</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/cloudy.jpg" alt="a cloudy day pic">
+                </picture>
+                <figcaption>A Cloudy Day</figcaption>
+            </figure>
+            <figure> 
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/freeze.jpg" alt="icy cold day">
+                </picture>
+                <figcaption>Icy Cold Day</figcaption>
+            </figure> 
+            <figure>    
+            <picture>
+                    <img src="images/placeholder.jpg" data-src="images/heatwave.jpg" alt="hot sandy day">
+                </picture>
+                <figcaption>A heatwave</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/hurricane.jpg" alt="photo of hurricane">
+                </picture>
+                <figcaption>Hurricane Satellite View</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/lightrain.jpg" alt="rainy day">
+                </picture>
+                <figcaption>Rainy Day</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/partlycloudy.jpg" alt="a partly cloudy day">
+                </picture>
+                <figcaption>Some Clouds in the Sky</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/snow.jpg" alt="a snowy Christmas night">
+                </picture>
+                <figcaption>A Snowy Night</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="photo of tornado">
+                </picture>
+                <figcaption>Active Tornado</figcaption>
+            </figure>
+            </div>
+        </main>
+
+        <script src="js/lazyjava.js"></script>
+
+        <footer>
+                <p>&copy;Street Smart Climate
+                <span id="name">Ana Kendall</span> 
+                <span id="home"><a href="https://jumpingjellyfish.github.io">Home</a></span><br>
+                <span id ="currentdate"></span>
+                <script type="text/javascript" src="js/today.js"></script></p>
+                <script type="text/javascript" src="js/hamburgermenu.js"></script>
+            </footer>
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="js/webfont.js"></script>
+</body>
+</html>
