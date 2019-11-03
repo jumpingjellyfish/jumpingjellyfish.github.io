@@ -15,13 +15,13 @@
 		display: block;
 		flex: 1 1 100%;
     }
-
-	main{
-		grid-template-columns: 1fr 1fr;
-	}
-	.gallery{
+	
+	section{
 		color: black;
 		align-items: center;
-		margin-bottom: 2400px;
+		grid-template-columns: 1fr 1fr;
+	}
+	figure{
+		box-shadow: none;
 	}
 }

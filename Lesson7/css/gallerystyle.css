@@ -8,12 +8,19 @@ h1{
     font-size: 24px;
     color: #ffffff;
     padding-left: 0px;
-    margin: 0px;
 }
 
 header img{
     width: 120px;
     margin:0px;
+}
+div {
+    font-style: italic;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 header{
     margin-left:auto;
@@ -27,14 +34,7 @@ header{
         align-items: center;
         justify-content:center;
 }
-div {
-    font-style: italic;
-    color: #ffffff;
-    font-weight: lighter;
-    font-size: 20px;
-    padding-bottom: px;
-    text-align: center;
-}
+
 
 nav a:link{
     text-decoration: none;
@@ -105,31 +105,42 @@ main{margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: 'Manjari', sans-serif;
-    grid-template-columns: 1fr;
 }
-.gallery{
+section{
     color: black;
-    align-items: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.content {     color: black;
-    text-align: center;
+h2{ color: black;
     padding-top: 32px;
-    padding-bottom: 28px; 
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
-img{
-margin-left: auto;
-margin-right: auto;
+
+img{ width: 300px;
+    margin: 10px;
     filter: blur(0em);
     transition: filter 1s;
   }
 img[data-src] {
     filter: blur(0.2em);
   }
+
 figure{
-    float: left;
-    
+    margin: auto;
+    padding: 4px;
 }
+
 
 footer{
     text-align: center;
@@ -142,10 +153,9 @@ footer{
     margin-right:auto;
     margin-left:auto;
     flex: 0 1 100%;
-    display: flex;
+    display: block;
     flex-flow: column;
     align-items: center;
-    justify-content:center;
     }
 
 footer a:link{color: #ffffff;
