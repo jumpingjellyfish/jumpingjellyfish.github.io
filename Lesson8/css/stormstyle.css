@@ -168,6 +168,17 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+.info{
+    color: black;
+    text-align:center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.contact img{
+    display: none;
+}
+
 footer{
     text-align: center;
     font-family: 'Manjari', sans-serif;
