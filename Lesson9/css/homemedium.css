@@ -36,51 +36,12 @@
         text-align:center;
         margin: 25px;
     }
-    .cold img{        
-        width: 90%;
-        height:350px;
-        margin-left: auto;
-    margin-right: auto;
-    
-    }
-    
-    .degrees, .high, .wind, .chill{
-        color:rgb(0, 153, 255);
-    }
-    .herodiv{ position: relative; 
-    }
 
-    .weathersummary{position: absolute;
-        top: 30px;
-        left: 30px;
-        width: 320px;
-        height: 250px;
-        color: black;
-        background-color: white;
-        padding-top: 10px;
-        font-style: normal;
-        box-shadow: 0 0 30px orange;}
-    .weathersummary h3{
-        font-size: 23px;
-    }
-    .weathersummary p{
-        font-size: 20px;
-    }
-    .forecast { display: none;
-    }
-    .street img{ display: flex;
-        width: 75%;
-        margin: 0 auto;
-    }
+
+
+
+
     
-    .articlepage{ 
-        text-align: center;
-        margin-top: 20px;
-    }
-    .articlepage p{text-align: center;
-    padding-left: 5px;
-    padding-right: 18px;
-    }
     .contact img{ width: 40%;
 		padding-bottom: 5px;
 		display: flex;

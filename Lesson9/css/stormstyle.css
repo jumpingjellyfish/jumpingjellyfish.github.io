@@ -176,6 +176,9 @@ form label.top input:required:valid{
 }
 .danger{
     color: black;
+    text-align: left;
+    font-style: normal;
+    font-size: 16px;
 }
 
 .info{

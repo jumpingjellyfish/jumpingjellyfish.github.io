@@ -3,18 +3,6 @@ body{
     padding: .5em;
 }
 
-aside{ display: flex;
-    color: white;
-    background-image: radial-gradient(rgba(0, 140, 255, 0.904), rgb(51, 118, 218));
-
-
-}
-aside p{margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-}
-
-
 h1{
     font-family: 'Press Start 2P', cursive;
     font-size: 24px;
@@ -25,7 +13,6 @@ h1{
 section h2{
     text-align: center;
 }
-
 header img{
     width: 120px;
     margin:0px;
@@ -115,9 +102,16 @@ nav li{font-size: 20px;
     font-family: 'Manjari', sans-serif;
 }
 
+
+
+
+
+
 main{
     font-family: 'Manjari', sans-serif;
     grid-template-columns: 1fr;
+    padding: 0 2%;
+    min-height: 20rem
 }
 
 main section { 
@@ -129,68 +123,75 @@ main section {
 }
 main h2{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: #f3610ce0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
 }
 section p{font-size: 20px;}
-.cold img{ 
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 250px;
-}
-.cold{
-    display: flex;
-}
-.degrees, .high, .wind, .chill{
-    color:rgb(0, 153, 255);
-}
 
-.herodiv{ position: relative; 
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid #ffc31e;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color:#ffc31e;
 }
+form legend{font-family:'Press Start 2P', cursive;
+    font-size: 15px;
+    margin: 0 1rem;
+    padding: 10px 1rem;
+    font-size: .8rem;
+    background-color:#ffc31e;
+    border-radius: 6px;
 
-.weathersummary{position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 320px;
-    height: 250px;
-    color: black;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
     background-color: white;
-    padding-top: 10px;
-    font-style: normal;
-    box-shadow: 0 0 30px orange;}
-.weathersummary h3{
-    font-size: 23px;
 }
-.weathersummary p{
-    font-size: 20px;
+form label.sbs{
+    padding: .75rem 0;
+    display: block;
 }
-
-.forecast{
-    display:none;
+#ratingvalue{
+    margin: 0 15px;
 }
 
-.articlepage{ color: black;
-    background-color: rgb(252, 136, 41);
-    padding: 10px;
-    background-image: radial-gradient(orange,#ffc31e);
+form input.submitBtn{
+    border:none;
+    background-color: #f3610ce0;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+.danger{
+    color: black;
     text-align: left;
-    margin-top:80px;
-
-}
-.articlepage h3{ text-align: center;
-    padding-bottom: 0px;
-}
-.article {
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.article p{
-    padding-right: 5px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.street img{
-    display: none;
+    font-style: normal;
+    font-size: 16px;
 }
 
 .info{
@@ -203,6 +204,13 @@ section p{font-size: 20px;}
 .contact img{
     display: none;
 }
+
+
+
+
+
+
+
 footer{
     text-align: center;
     font-family: 'Manjari', sans-serif;

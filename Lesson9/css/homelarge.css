@@ -1,141 +1,38 @@
 /*desktop view*/
 @media only screen and (min-width: 60em) {
     main{
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 950px;
-        
+        max-width: 64rem;
+        margin: auto;
+    }
+    form label.sbs{
+        padding: .4rem 0;
     }
 
-    section{text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 925px;
-    }
-    main h2{
-        text-align: center;
-    }
-    .cold{
-        margin-left: auto;
-        margin-right: auto;
-        width: 925px;
-        padding-top: 32px;
-    padding-bottom: 28px; 
-    }
-    .cold img{
-        width: 100%;
-        height: 450px;
-    }
-    
-    .degrees, .high, .wind, .chill{
-        color:rgb(0, 153, 255);
-    }
-    .herodiv{ position: relative; 
-        text-align: center;
-
-    }
-
-    .weathersummary{position: absolute;
-        top: 50px;
-        left: 30px;
-        width: 300px;
-        height: 250px;
-        color: black;
-        background-color: white;
-        padding-top: 10px;
-        font-style: normal;
-        box-shadow: 0 0 30px orange;}
-    .weathersummary h3{
-        font-size: 23px;
-    }
-    .weathersummary p{
-        font-size: 20px;
-    }
-
-    .forecast img {
-        width: 30px;
-    }
-    
-    .forecast{
-        background: radial-gradient(yellow);
-        margin-left: auto;
-        margin-right: auto;
-        display:flex;
-    }
-    table{
-        width:450px;
-        margin-left:auto;
-        margin-right:auto;
-    padding-top: 10px;}
-    table tr th{
-        color: black;
-        background-color: orange;
-    }
-
-    .forecast p{
-            font-size:21px;
-        }
-   .forecast table{
-    margin-left: auto;
-    margin-right: auto;
-   }
-   
-    .article{
-        margin: 0 auto; 
-    text-align: left;
-    }
-    .articlepage{ 
+    .contact{
         text-align: left;
         margin-left: auto;
-    margin-right: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 50x;
+        width: 825px;
+        padding-bottom: 15px;  
+        display: flex;
     }
-    .articlepage h3{
-        padding-left: 5px;
-        text-align: left;
-    }
-    .articlepage p{text-align: left;
-        margin-left: auto;
-    margin-right: auto;
-    padding-left: 5px;
-    padding-right: 20px;
-
-    }
-    .street{
-            width: 45%;
-            float: right;
-        padding-top:8px;
-    padding-right: 8px;
-padding-bottom: 5px;}
-
-.street img{ 
-    width: 95%;
-    padding: 0px;
-    float: right;
-}
-
-.contact{
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50x;
-    width: 825px;
-    padding-bottom: 15px;  
-    display: flex;
-}
 .info{
-width: 350px;
-float:left;
-text-align: left;
+    width: 350px;
+    float:left;
+    text-align: left;
 
 }
 
 .contact img{ width: 350px;
-    padding-right: 10px;
-    padding-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
 }
+
     footer{text-align: center;
         margin-left: auto;
         margin-right: auto;
