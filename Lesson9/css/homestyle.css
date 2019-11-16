@@ -107,6 +107,7 @@ nav li{font-size: 20px;
 
 
 
+
 main{
     font-family: 'Manjari', sans-serif;
     grid-template-columns: 1fr;
@@ -131,6 +132,10 @@ main h2{
     color: white;
 }
 section p{font-size: 20px;}
+
+.cards{
+    color:#000000;
+}
 
 form fieldset{
     margin: 2rem 0;
