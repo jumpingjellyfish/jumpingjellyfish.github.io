@@ -46,8 +46,45 @@
         height:350px;
         margin-left: auto;
     margin-right: auto;
+    }
+
+    .cards{display: grid;
+        grid-template-columns: 1fr;
+        background-color: #ffc31e;
+        margin-top: 25px;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    section{margin-left: auto;
+        margin-right: auto;
     
     }
+
+section:nth-of-type(1){
+    width: 150px;
+}    
+    section img{
+    flex-wrap:wrap;
+    }
+    .cards section{
+        width: 300px;
+    }
+   
+    .cards h2{
+        font-size: 28px;
+    }
+    .cards p{font-style: normal;
+    font-size: 16px;}
+    
+    p:first-of-type {font-style: italic;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+
 
 
 .wire{grid-template-columns: 1fr 1fr;
@@ -65,11 +102,6 @@
     width: 300px;
 
 }
-
-
-
-
-
     
     .contact img{ width: 40%;
 		display: flex;
