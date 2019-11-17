@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         for (let i = 0; i <= towns.length; i++) 
-        {
+        { 
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let p1 = document.createElement('p');
@@ -19,6 +19,9 @@ fetch(requestURL)
             let alt1 = document.createElement('alt');
             let image2 = document.createElement('img');
             let alt2 = document.createElement('alt');
+            let image3 = document.createElement('img');
+            let alt3 = document.createElement('alt');
+
             
             h2.textContent = towns[i].name;
             p1.textContent = towns[i].motto;
@@ -34,14 +37,15 @@ fetch(requestURL)
             card.appendChild(p4);
             card.appendChild(image1);
             card.appendChild(image2);
+            card.appendChild(image3);
 
 
-
-            image1.setAttribute('src', 'https://jumpingjellyfish.github.io\Lesson9\images\Fishhaven.jpg');
+            image1.setAttribute('src', 'images/Fishhaven.jpg');
             image1.setAttribute('alt', 'picture of Fish Haven Town');
             image2.setAttribute('src', 'images/Preston.jpg');
             image2.setAttribute('alt', 'picture of Preston Town');
-
+            image3.setAttribute('src', 'images/Sodasprings.jpg');
+            image3.setAttribute('alt', 'picture of Soda Springs Town');
 
             document.querySelector('div.cards').appendChild(card);
         }

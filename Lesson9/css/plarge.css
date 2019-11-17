@@ -111,31 +111,30 @@ padding-bottom: 5px;}
     padding: 0px;
     float: right;
 }
-
 .contact{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 50x;
-    width: 825px;
+    width: 650px;
     padding-bottom: 15px;  
     display: flex;
+}
+.contact p{font-size: 20px;}
+.contact h3{font-size: 20px;
+text-align: left;
 }
 .info{
 width: 350px;
 float:left;
 text-align: left;
-
-
 }
 
-.contact img{ width: 350px;
-    padding-right: 10px;
+.contact img{ width: 40%;
     padding-top: 0px;
     margin-left: auto;
-    margin-right: auto;
-    display:flex;
+    margin-right: auto;    
 }
     footer{text-align: center;
         margin-left: auto;
