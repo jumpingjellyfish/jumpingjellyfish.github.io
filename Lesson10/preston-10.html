@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ana Kendall">
+    <meta name="description" content="Preston town home page for Ana for class CIT 230 at BYU-Idaho">
+    <title>Street Smart Climate | Preston</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/prestonstyle.css">
+    <link rel="stylesheet" href="css/pmedium.css">
+    <link rel="stylesheet" href="css/plarge.css">
+    
+</head>
+
+<body>
+        <aside id="reminder">
+                <p>Saturday = Preston Pancakes in the Park!
+                    9:00 a.m. Saturday at the city park pavilion.</p>
+            </aside>
+    <header>
+        <h1><img src="images/logo.png" alt="street smart climate logo"/>
+        Street Smart Climate</h1>
+        <div>Be smart...weather wise</div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+           <h2>PRESTON IDAHO</h2>
+           <div class="herodiv">
+           <div class="cold">
+               <picture>
+                    <source srcset="images/cold.jpg" media="(min-width: 600px)
+                    and (max-width: 950px)">
+                    <source srcset="images/cold.jpg" media="(min-width: 951px)">
+                <img src="images/cold.jpg" alt="Hero sample photo of sunshine">
+
+               </picture>
+            </div>
+                <section class="weathersummary">
+                    <h3><u>Weather Summary</u></h3>
+                    <p>Current: <span class="degrees">Cloudy</span></p>
+                    <p>High: <span class="high">77 &deg;F</span></p>
+                    <p>Wind Chill: <span class="chill"> &deg;F</span></p>
+                    <p>Humidity: <span class="degrees">40%</span></p>
+                    <p>Wind Speed: <span class="wind">2 mph</span></p>
+                </section>
+            </div>
+        <section class="forecast">
+            <table>
+                <tr>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                    <th>SUN</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sunny.png" alt="sunny day image"/>
+                        <p>77 &deg;F</p>
+                    </td>
+                    <td><img src="images/sunny.png" alt="sunny day image"/>
+                        <p>65 &deg;F</p>
+                    </td>
+                    <td><img src="images/cloudy.png" alt="cloudy day image"/>
+                         <p>62 &deg;F</p>
+                    </td>
+                    <td><img src="images/cloudy.png" alt="cloudy day image"/>
+                        <p>60 &deg;F</p>
+                    </td>
+                    <td><img src="images/cloudy.png" alt="cloudy day image"/>
+                        <p>58 &deg;F</p>
+                     </td>
+                </tr>
+            </table>
+            <br>
+        </section>
+            <div class="articlepage">
+                <div class="street"><img src="images/street.jpg" alt="photo of street"/>
+                </div>
+        <section class="article">
+                <h3>This City</h3>
+                <p>by Annonymous</p><p>We certainly have seen a lot of growth. What was once a small,
+                farmy town with small businesses has blossomed into our very own Preston.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur nemo consectetur totam magni quae voluptas voluptatum
+                excepturi ut beatae vero ab voluptates quas minus expedita molestias
+                iusto, perferendis ipsum laboriosam? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Consequuntur, fugiat dolorem. 
+                Debitis accusantium ullam eos possimus necessitatibus obcaecati
+                numquam amet pariatur, animi alias in est ex, qui exercitationem
+                dolores voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Cumque repellat illo eos aliquid, aperiam ducimus quia similique
+                obcaecati voluptates repellendus vero nam, est sit dolore asperiores
+                necessitatibus, odit maiores quasi.
+                </p>
+        </section>
+            
+        </div>
+        <div class="contact">
+                <img src="images/map.jpg" alt="photo of street"/>
+            <div class="info">
+            <h3>Contact Information</h3>
+            <p>Phone number: 555-123-1234</p>
+            <p>Email: ken15017@byui.edu</p>
+            <p>Address: 851 Fairy Tale Lane</p>
+            <p>Preston, Idaho</p>
+            </div>
+            </div>
+    </main>
+    <footer>
+        <p>&copy;Street Smart Climate
+        <span id="name">Ana Kendall</span> 
+        <span id="home"><a href="https://jumpingjellyfish.github.io">Home</a></span><br>
+        <span id ="currentdate"></span>
+        <script src="js/today.js"></script></p>
+        <script src="js/hamburgermenu.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/windchill.js"></script>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</body>
+</html>

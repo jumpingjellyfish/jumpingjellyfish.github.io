@@ -1,0 +1,132 @@
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+    nav ul{
+            display: flex;}
+    
+    nav ul li{flex: 1 1 100%;}
+    
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        width: 700px;
+        text-align: center;
+    }
+
+    section{
+        width:700px;
+    }
+    section h2 p{
+        text-align: center;
+        display: flex;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    main h2{
+        text-align:center;
+        margin: 25px;
+    }
+
+
+    .welcome{ font-size: 80%;
+
+    }
+
+    .welcome img{        
+        width: 90%;
+        height:350px;
+        margin-left: auto;
+    margin-right: auto;
+    }
+
+    .cards{display: grid;
+        grid-template-columns: 1fr;
+        background-color: #ffc31e;
+        margin-top: 25px;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    section{margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+section:nth-of-type(1){
+    width: 150px;
+}    
+    section img{
+    flex-wrap:wrap;
+    }
+    .cards section{
+        width: 300px;
+    }
+   
+    .cards h2{
+        font-size: 28px;
+    }
+    .cards p{font-style: normal;
+    font-size: 16px;}
+    
+    p:first-of-type {font-style: italic;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+
+
+
+.wire{grid-template-columns: 1fr 1fr;
+    width: 750px;
+    margin-top: 50px;
+}
+
+.check{
+    width: 320px;
+    font-size: 85%;
+    margin-right: 10px;
+}
+    
+.comments{
+    width: 300px;
+
+}
+    
+    .contact img{ width: 40%;
+		display: flex;
+		margin-top: 0px;
+		float:left;
+	}
+
+	.contact{ 
+		margin-left: auto;
+		margin-right: auto;
+		width: 510px;
+		margin-top: 100px;
+		margin-bottom: 50px;
+		display:flex;
+    }
+    
+    .contact h3{
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+	.info{
+		margin: 0 auto;
+        text-align: left;
+        padding-top: 0px;
+	}
+
+}
