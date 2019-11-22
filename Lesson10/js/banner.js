@@ -1,31 +1,27 @@
-switch (new Date().getDay()) {
+var d = new Date();
+var day = d.getDay();
+
+switch (day) {
     case 0:
-      day = "Sunday";
-    display=none;
-      break;
+        document.getElementById("reminder").style.display="none";
+        break;
     case 1:
-      day = "Monday";
-      display=none;
-      break;
+        document.getElementById("reminder").style.display="none";
+        break;
     case 2:
-       day = "Tuesday";
-       display=none;
+        document.getElementById("reminder").style.display="none";
       break;
     case 3:
-      day = "Wednesday";
-      display=none;
+        document.getElementById("reminder").style.display="none";
       break;
     case 4:
-      day = "Thursday";
-      display=none;
+        document.getElementById("reminder").style.display="none";
       break;
     case 5:
-      day = "Friday";
-      display=block;
+        document.getElementById("reminder").style.display="flex";
       break;
     case 6:
-      day = "Saturday";
-      display=none;
+        document.getElementById("reminder").style.display="none";
+      break;
 
   }
-  document.getElementById("reminder").style.display="block"

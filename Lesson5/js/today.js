@@ -1,7 +1,7 @@
 var daynames =[
     "Sunday",
     "Monday",
-    "Tuesay",
+    "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",

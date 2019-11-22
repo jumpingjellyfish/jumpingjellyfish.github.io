@@ -44,9 +44,6 @@
     
     }
     
-    .degrees, .high, .wind, .chill{
-        color:rgb(0, 153, 255);
-    }
     .herodiv{ position: relative; 
     }
 

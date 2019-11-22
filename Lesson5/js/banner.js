@@ -1,5 +1,6 @@
-switch (new Date().getDay()) {
-    case 0:
+
+for (new Date().getDay()) {
+    /*case 0:
       day = "Sunday";
     display=none;
       break;
@@ -26,6 +27,11 @@ switch (new Date().getDay()) {
     case 6:
       day = "Saturday";
       display=none;
+if(day == "Friday");
+  }*/
 
-  }
-  document.getElementById("reminder").style.display="block"
+if(getDay() == "4"){
+  document.getElementById("reminder").style.display="block"}
+  else{
+    document.getElementById("reminder").style.display="none"}
+}

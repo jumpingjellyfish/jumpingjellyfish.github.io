@@ -3,17 +3,19 @@ body{
     padding: .5em;
 }
 
-aside{ display: flex;
+#reminder{ display: flex;
     color: white;
-    background-image: radial-gradient(rgba(0, 140, 255, 0.904), rgb(51, 118, 218));
-
-
-}
-aside p{margin-left: auto;
-    margin-right: auto;
+    background-color: blue;
     font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 0px;
 }
-
+#reminder h4{
+    margin-left: auto;
+margin-right: auto;
+}
 
 h1{
     font-family: 'Press Start 2P', cursive;
