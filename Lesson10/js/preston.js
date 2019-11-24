@@ -1,4 +1,4 @@
-  const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
   fetch(apiURL)
   .then((response) => response.json())
@@ -24,11 +24,6 @@ fetch(apiURL)
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp2')
         .textContent = jsObject.list[1].main.temp.toFixed();
-        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[1].icon + '.png';  // note the concatenation
-        const desc = jsObject.weather[1].description;  // note how we reference the weather array
-        document.getElementById('imagesrc').textContent = (imagesrc);  // informational specification only
-        document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.getElementById('icon').setAttribute('alt', desc);
       }
     }
 });
@@ -40,11 +35,6 @@ fetch(apiURL)
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp3')
         .textContent = jsObject.list[2].main.temp.toFixed();
-        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[2].icon + '.png';  // note the concatenation
-        const desc = jsObject.weather[2].description;  // note how we reference the weather array
-        document.getElementById('imagesrc').textContent = (imagesrc);  // informational specification only
-        document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.getElementById('icon').setAttribute('alt', desc);
       }
     }
 });
@@ -56,11 +46,7 @@ fetch(apiURL)
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp4')
         .textContent = jsObject.list[3].main.temp.toFixed();
-        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[3].icon + '.png';  // note the concatenation
-        const desc = jsObject.weather[3].description;  // note how we reference the weather array
-        document.getElementById('imagesrc').textContent = (imagesrc);  // informational specification only
-        document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.getElementById('icon').setAttribute('alt', desc);
+
   
       }
     }
@@ -73,11 +59,12 @@ fetch(apiURL)
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp5')
         .textContent = jsObject.list[4].main.temp.toFixed();
+        /*
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[4].icon + '.png';  // note the concatenation
         const desc = jsObject.weather[4].description;  // note how we reference the weather array
         document.getElementById('imagesrc').textContent = (imagesrc);  // informational specification only
         document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.getElementById('icon').setAttribute('alt', desc);
+        document.getElementById('icon').setAttribute('alt', desc); */
       }
     }
 });
@@ -85,7 +72,7 @@ fetch(apiURL)
 
 
 
-const apiURL2 = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
 fetch(apiURL2)
 .then((response) => response.json())
@@ -225,27 +212,27 @@ switch (day) {
       break;
       case 5:
         document.getElementById('day4')
-        .textContent = ('WED');      
+        .textContent = ('MON');      
         break;
         case 4:
       document.getElementById('day4')
-      .textContent = ('THU');      
+      .textContent = ('SUN');      
       break;
       case 3:
       document.getElementById('day4')
-      .textContent = ('FRI');      
+      .textContent = ('SAT');      
       break;
       case 2:
         document.getElementById('day4')
-        .textContent = ('SAT');
+        .textContent = ('FRI');
         break;
         case 1:
           document.getElementById('day4')
-          .textContent = ('SUN');        
+          .textContent = ('THU');        
           break;
       case 0:
         document.getElementById('day4')
-        .textContent = ('MON');
+        .textContent = ('WED');
         break;
     
   }
@@ -256,27 +243,27 @@ switch (day) {
       break;
       case 5:
         document.getElementById('day5')
-        .textContent = ('THU');      
+        .textContent = ('TUE');      
         break;
         case 4:
       document.getElementById('day5')
-      .textContent = ('FRI');      
+      .textContent = ('MON');      
       break;
       case 3:
       document.getElementById('day5')
-      .textContent = ('SAT');      
+      .textContent = ('SUN');      
       break;
       case 2:
         document.getElementById('day5')
-        .textContent = ('SUN');
+        .textContent = ('SAT');
         break;
         case 1:
           document.getElementById('day5')
-          .textContent = ('MON');        
+          .textContent = ('FRI');        
           break;
       case 0:
         document.getElementById('day5')
-        .textContent = ('TUE');
+        .textContent = ('THU');
         break;
     
   }
