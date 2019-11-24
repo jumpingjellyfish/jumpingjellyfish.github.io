@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+/*const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -14,3 +14,26 @@ document.getElementById('imagesrc').textContent = imagesrc;  // informational sp
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
 });
+*/
+
+const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+
+  fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    for(let i = 0; i < jsObject.list.length; i++)
+    if(jsObject.list[i].dt_txt.includes('18:00:00')){
+        console.log(jsObject.list[i].dt_txt);}
+
+});
+
+/*fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    for(let i = 0; i < jsObject.list.length; i++)
+    if(jsObject.list[i].dt_txt.includes('18:00:00')){
+        console.log(jsObject.list[i].dt_txt);}
+
+});*/
