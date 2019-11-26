@@ -247,6 +247,15 @@ footer p{  font-family: 'Manjari', sans-serif;
     font-family: 'Manjari', sans-serif;
 }
 
+#weathermap{font-style: normal;
+    font-size: 18px;
+    border-right: 1.5px solid #ffffff;
+    padding-right: 6px;
+}
+#weathermap a:link{
+    text-decoration: underline;
+}
+
 #year{
         border-right: 1.5px solid #ffffff;
         padding-right: 6px;
