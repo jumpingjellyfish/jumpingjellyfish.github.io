@@ -3,30 +3,24 @@ body{
     padding: .5em;
 }
 
-#reminder{ display: flex;
-    color: white;
-    background-image: radial-gradient(rgba(0, 140, 255, 0.904), rgb(51, 118, 218));
-}
-aside p{margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-}
-
-
 h1{
     font-family: 'Press Start 2P', cursive;
     font-size: 24px;
     color: #ffffff;
     padding-left: 0px;
-    margin: 0px;
-}
-section h2{
-    text-align: center;
 }
 
 header img{
     width: 120px;
     margin:0px;
+}
+div {
+    font-style: italic;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 header{
     margin-left:auto;
@@ -40,13 +34,7 @@ header{
         align-items: center;
         justify-content:center;
 }
-div{
-    font-style: italic;
-    color: #ffffff;
-    font-weight: lighter;
-    font-size: 20px;
-    text-align: center;
-}
+
 
 nav a:link{
     text-decoration: none;
@@ -113,98 +101,44 @@ nav li{font-size: 20px;
     font-family: 'Manjari', sans-serif;
 }
 
-main{
+main{margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     font-family: 'Manjari', sans-serif;
-    grid-template-columns: 1fr;
 }
-
-main section { 
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 32px;
-    padding-bottom: 28px; 
-}
-main h2{
-    text-align: center;
-}
-section p{font-size: 20px;}
-.cold img{ 
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 250px;
-}
-.cold{
-    display: flex;
-}
-
-.herodiv{ position: relative; 
-}
-
-.weathersummary{position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 320px;
-    height: 250px;
+section{
     color: black;
-    background-color: white;
-    padding-top: 10px;
-    font-style: normal;
-    box-shadow: 0 0 30px orange;}
-.weathersummary h3{
-    font-size: 23px;
-}
-.weathersummary p{
+    font-style: italic;
+    font-weight: lighter;
     font-size: 20px;
-}
-
-.forecast{
-    display:none;
-}
-
-.cards section{padding-top: 0px;
-    color:#000000;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: 3px solid black;
-    border-radius: 6px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
 }
 
-.cards img{width: 50%;}
-
-.cards h2{margin-left: auto;
-    margin-right: auto;
+h2{ color: black;
+    padding-top: 32px;
+    margin: 0 auto;
     text-align: center;
+    display: block;
 }
 
+img{ width: 300px;
+    margin: 10px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+img[data-src] {
+    filter: blur(0.2em);
+  }
 
-.articlepage{ color: black;
-    background-color: rgb(252, 136, 41);
-    padding: 10px;
-    background-image: radial-gradient(orange,#ffc31e);
-    text-align: left;
-    margin-top:80px;
-
-}
-.articlepage h3{ text-align: center;
-    padding-bottom: 0px;
-}
-.article {
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.article p{
-    padding-right: 5px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.street img{
-    display: none;
+figure{
+    margin: auto;
+    padding: 4px;
 }
 
 .info{
@@ -227,6 +161,7 @@ section p{font-size: 20px;}
 .contact img{
     display: none;
 }
+
 footer{
     text-align: center;
     font-family: 'Manjari', sans-serif;
@@ -238,10 +173,9 @@ footer{
     margin-right:auto;
     margin-left:auto;
     flex: 0 1 100%;
-    display: flex;
+    display: block;
     flex-flow: column;
     align-items: center;
-    justify-content:center;
     }
 
 footer a:link{color: #ffffff;
@@ -264,15 +198,6 @@ footer p{  font-family: 'Manjari', sans-serif;
     padding-right: 6px;
     padding-left: 6px;
     font-family: 'Manjari', sans-serif;
-}
-
-#weathermap{font-style: normal;
-    font-size: 18px;
-    border-right: 1.5px solid #ffffff;
-    padding-right: 6px;
-}
-#weathermap a:link{
-    text-decoration: underline;
 }
 
 #year{
