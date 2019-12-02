@@ -1,0 +1,286 @@
+    body{
+        font-family: 'Manjari', sans-serif;
+        padding: .5em;
+    }
+    
+    #reminder{ display: flex;
+        color: white;
+        background-image: radial-gradient(rgba(0, 140, 255, 0.904), rgb(51, 118, 218));
+    }
+    aside p{margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+    
+    
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 24px;
+        color: #ffffff;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    section h2{
+        text-align: center;
+    }
+    
+    header img{
+        width: 120px;
+        margin:0px;
+    }
+    header{
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 45px;
+        background-color: #f3610ce0;
+         display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content:center;
+    }
+    div{
+        font-style: italic;
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    nav a:link{
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        padding: .75rem;
+        text-align:center;
+        font-family: 'Manjari', sans-serif;
+    
+    }
+    .active{
+        background-color: #ec8c0ec2;
+        border: 1px solid;
+    }
+    nav a:visited{
+        color: #000000;
+    background-color: white;
+    }
+    
+    nav{   text-align:center;   
+        background-color:#ffc31e;
+        font-family: 'Manjari', sans-serif;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+    
+    .navigation{
+        list-style:none;
+        text-align: center;
+        padding: 0px;
+    }
+    .navigation li:first-child{
+        display:block;
+    }
+    .navigation li{display:none;
+    }
+    
+    .navigation a{
+        display: block;
+        color:#ffc31e;
+        padding:.075rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover{
+        color: #000;
+        background-color: #ffc31e;
+        font-weight: 700;
+        border: 1px solid;
+    }
+    
+    .responsive li{
+        display:block;
+    }
+    
+    nav ul{list-style-type: none;
+            margin:0px;
+            padding:0px;
+            overflow:hidden;
+            font-family: 'Manjari', sans-serif;
+    
+    }
+    nav li{font-size: 20px;
+        font-family: 'Manjari', sans-serif;
+    }
+    
+    main{
+        font-family: 'Manjari', sans-serif;
+        grid-template-columns: 1fr;
+    }
+    
+    main section { 
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 32px;
+        padding-bottom: 28px; 
+    }
+    main h2{
+        text-align: center;
+    }
+    section p{font-size: 20px;}
+    .cold img{ 
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 250px;
+    }
+    .cold{
+        display: flex;
+    }
+    
+    .herodiv{ position: relative; 
+    }
+    
+    .weathersummary{position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 320px;
+        height: 250px;
+        color: black;
+        background-color: white;
+        padding-top: 10px;
+        font-style: normal;
+        box-shadow: 0 0 30px orange;}
+    .weathersummary h3{
+        font-size: 23px;
+    }
+    .weathersummary p{
+        font-size: 20px;
+    }
+    
+    .forecast{
+        display:none;
+    }
+    
+    .cards section{padding-top: 0px;
+        color:#000000;
+        margin-top: 100px;
+        border: 3px solid black;
+        border-radius: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+    .cards img{width: 50%;}
+    
+    .cards h2{margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    
+    .articlepage{ color: black;
+        background-color: rgb(252, 136, 41);
+        padding: 10px;
+        background-image: radial-gradient(orange,#ffc31e);
+        text-align: left;
+        margin-top:80px;
+    
+    }
+    .articlepage h3{ text-align: center;
+        padding-bottom: 0px;
+    }
+    .article {
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .article p{
+        padding-right: 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .street img{
+        margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 250px;
+    }
+    
+    .info{
+        color: black;
+        text-align:center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .contact h3{color: black;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 18px;}
+    .contact p{
+            font-size: 18px;
+        }
+    
+    .contact img{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        font-family: 'Manjari', sans-serif;
+        font-size: 18px;
+        background-color: #f3610ce0;
+        color: #ffffff;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        margin-right:auto;
+        margin-left:auto;
+        flex: 0 1 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content:center;
+        }
+    
+    footer a:link{color: #ffffff;
+        text-decoration: none;
+        font-family: 'Manjari', sans-serif;
+    }
+    footer a:visited{color: #ffffff;}
+    
+    footer p{  font-family: 'Manjari', sans-serif;
+    }
+    #name{
+        border-right: 1.5px solid #ffffff;
+        padding-right: 6px;
+        border-left: 1.5px solid #ffffff;
+        padding-left: 6px;
+        font-family: 'Manjari', sans-serif;
+    }
+    #home{
+        color: #ffffff;
+        padding-right: 6px;
+        padding-left: 6px;
+        font-family: 'Manjari', sans-serif;
+    }
+    
+    #weathermap{font-style: normal;
+        font-size: 18px;
+        border-right: 1.5px solid #ffffff;
+        padding-right: 6px;
+    }
+    #weathermap a:link{
+        text-decoration: underline;
+    }
+    
+    #year{
+            border-right: 1.5px solid #ffffff;
+            padding-right: 6px;
+            font-family: 'Manjari', sans-serif;
+    }
+    
+

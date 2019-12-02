@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
   fetch(apiURL)
   .then((response) => response.json())
@@ -7,7 +7,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276&units
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp1')
         .textContent = jsObject.list[0].main.temp.toFixed();}}});
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?zip=83276&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -164,9 +164,9 @@ fetch(requestURL)
 
 
             h2.textContent = 'Upcoming Events:'
-            p1.textContent = '-' + ' ' + towns[4].events[0];
-            p2.textContent = '-' + ' ' + towns[4].events[1];
-            p3.textContent = '-' + ' ' + towns[4].events[2];
+            p1.textContent = '-' + ' ' + towns[5].events[0];
+            p2.textContent = '-' + ' ' + towns[5].events[1];
+            p3.textContent = '-' + ' ' + towns[5].events[2];
         
             card.appendChild(h2);
             card.appendChild(p1);
@@ -174,7 +174,7 @@ fetch(requestURL)
             card.appendChild(p3);
             card.appendChild(image1);
 
-            image1.setAttribute('src', 'images/events.jpg');
+            image1.setAttribute('src', 'images/sodaevents.jpg');
             image1.setAttribute('alt', 'picture of Preston Town');
 
             document.querySelector('div.cards').appendChild(card);}

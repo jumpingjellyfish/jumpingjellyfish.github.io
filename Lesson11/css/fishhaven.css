@@ -166,7 +166,6 @@ section p{font-size: 20px;}
 .cards section{padding-top: 0px;
     color:#000000;
     margin-top: 100px;
-    margin-bottom: 100px;
     border: 3px solid black;
     border-radius: 6px;
     margin-left: auto;
@@ -207,6 +206,7 @@ section p{font-size: 20px;}
     margin-left: auto;
         margin-right: auto;
         width: 80%;
+        height: 250px;
 }
 
 .info{
@@ -282,3 +282,5 @@ footer p{  font-family: 'Manjari', sans-serif;
         padding-right: 6px;
         font-family: 'Manjari', sans-serif;
 }
+
+
