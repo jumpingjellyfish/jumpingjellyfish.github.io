@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83287&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
   fetch(apiURL)
   .then((response) => response.json())
@@ -7,8 +7,9 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&unit
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp1')
         .textContent = jsObject.list[0].main.temp.toFixed();}}});
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
-fetch(apiURL2)
+
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?zip=83287&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+  fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
@@ -159,23 +160,26 @@ fetch(requestURL)
             let p1 = document.createElement('p');
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
+            let p4 = document.createElement('p');
             let image1 = document.createElement('img');
             let alt1 = document.createElement('alt');
 
 
             h2.textContent = 'Upcoming Events:'
-            p1.textContent = '-' + ' ' + towns[5].events[0];
-            p2.textContent = '-' + ' ' + towns[5].events[1];
-            p3.textContent = '-' + ' ' + towns[5].events[2];
+            p1.textContent = '-' + ' ' + towns[1].events[0];
+            p2.textContent = '-' + ' ' + towns[1].events[1];
+            p3.textContent = '-' + ' ' + towns[1].events[2];
+            p4.textContent = '-' + ' ' + towns[1].events[3];
         
             card.appendChild(h2);
             card.appendChild(p1);
             card.appendChild(p2);
             card.appendChild(p3);
+            card.appendChild(p4);
             card.appendChild(image1);
 
-            image1.setAttribute('src', 'images/sodaevents.jpg');
-            image1.setAttribute('alt', 'picture of Preston Town');
+            image1.setAttribute('src', 'images/fishevents.jpg');
+            image1.setAttribute('alt', 'picture of Fish Haven Town');
 
             document.querySelector('div.cards').appendChild(card);}
     

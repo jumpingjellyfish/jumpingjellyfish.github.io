@@ -127,6 +127,9 @@ main section {
 }
 main h2{
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding-top: 15px;
 }
 section p{font-size: 20px;}
 .cold img{ 
@@ -151,8 +154,9 @@ section p{font-size: 20px;}
     background-color: white;
     padding-top: 10px;
     font-style: normal;
-    box-shadow: 0 0 30px orange;}
-.weathersummary h3{
+    box-shadow: 0 0 30px turquoise;}
+
+    .weathersummary h3{
     font-size: 23px;
 }
 .weathersummary p{
@@ -196,6 +200,7 @@ section p{font-size: 20px;}
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
+    color: white;
 }
 .article p{
     padding-right: 5px;

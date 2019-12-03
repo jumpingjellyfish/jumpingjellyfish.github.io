@@ -56,7 +56,9 @@
         background-color: white;
         padding-top: 10px;
         font-style: normal;
-        box-shadow: 0 0 30px orange;}
+        box-shadow: 0 0 30px turquoise;
+        }
+
     .weathersummary h3{
         font-size: 23px;
     }
@@ -77,6 +79,10 @@
     .cards img{width: 70%;
     }
     
+    .article{
+        color: white;
+    }
+
     .articlepage{ 
         text-align: center;
         margin-top: 20px;

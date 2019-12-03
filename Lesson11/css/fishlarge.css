@@ -36,11 +36,13 @@
         left: 30px;
         width: 300px;
         height: 250px;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: orange;
         padding-top: 10px;
         font-style: normal;
-        box-shadow: 0 0 30px orange;}
+        box-shadow: 0 0 30px turquoise;
+       }
+
     .weathersummary h3{
         font-size: 23px;
     }
@@ -57,7 +59,7 @@
         margin-right: auto;
         display:flex;
     }
-    table{background: radial-gradient(yellow, rgb(233, 233, 223));
+    table{background: radial-gradient(orange, white,white, orange);
         width:450px;
         margin-left:auto;
         margin-right:auto;
@@ -82,6 +84,7 @@
     .article{
         margin: 0 auto; 
     text-align: left;
+    color: white;
     }
     .articlepage{ 
         text-align: left;

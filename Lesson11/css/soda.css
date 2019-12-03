@@ -127,6 +127,9 @@
     }
     main h2{
         text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        padding-top: 15px;
     }
     section p{font-size: 20px;}
     .cold img{ 
@@ -147,11 +150,12 @@
         left: 30px;
         width: 320px;
         height: 250px;
-        color: black;
+        color: orange;
         background-color: white;
         padding-top: 10px;
         font-style: normal;
-        box-shadow: 0 0 30px orange;}
+        box-shadow: 0 0 30px white;
+        }
     .weathersummary h3{
         font-size: 23px;
     }

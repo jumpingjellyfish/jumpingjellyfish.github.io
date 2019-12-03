@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 
   fetch(apiURL)
   .then((response) => response.json())
@@ -7,7 +7,8 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276&units
     if(jsObject.list[i].dt_txt.includes('18:00:00')){
         document.getElementById('temp1')
         .textContent = jsObject.list[0].main.temp.toFixed();}}});
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?zip=83276&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
+
+  const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a6b36300ca27fc31ce8529a15096e44d';
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {

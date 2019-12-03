@@ -112,12 +112,12 @@ main{padding: 0 2%;
 }
 main h2{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 60px;
-    background-color: #f3610ce0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
 }
 form fieldset{
     margin: 2rem 0;
