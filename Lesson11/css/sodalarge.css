@@ -80,6 +80,11 @@
    .cards section{width: 500px;
     margin-top: 50px;
    }
+
+   .street img{
+       height: 300px;
+
+   }
     .article{
         margin: 0 auto; 
     text-align: left;
