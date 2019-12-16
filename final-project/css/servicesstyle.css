@@ -119,75 +119,19 @@ nav li{font-size: 20px;
 }
 
 
-.reservationBtn {
-    border:none;
-    background-color: #2f5597;
-    color: white;
-    border-radius: .75em;
-    padding: .75rem 1.5rem;
-    margin: 10px;
-    max-width: 20rem;
 
-}
 
-.serving{margin-right: auto;
-    margin-left: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-    padding:10px;
-}
-
-.bride img{
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.hometemple img{
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.prayer img{
-    width: 45%;
-    margin-right: auto;
-    margin-left: auto;}
-
-.brighamheading{font-size:20px; 
-    color: #2f5597;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Noto serif';
-}
-
-.brighampic img{
-    width: 70%;
-    text-align: center;
-}
-.brighampic{
-    text-align: center;
-    margin: 20px;
-}
-.brighaminfo{margin-right: auto;
+.special{margin-right: auto;
     margin-left: auto;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 50px;
     margin-top: 20px;
+    text-align: left;
 }
 
-.infoheading{
-    color: #2f5597;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Noto serif';
-}
+
+
 
 .address{margin: 20px;
 }
