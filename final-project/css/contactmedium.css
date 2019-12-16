@@ -1,0 +1,102 @@
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+    
+
+    #head{
+        height: 150px;
+        font-size: 24px;
+    }
+
+    #head img{
+        width: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #headerintro{
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+#logo img{
+        width: 10px;
+    }
+
+#headerimgleft img{
+        display: flex;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+#headerimgleft{
+    width: 20%;
+    display: flex;
+
+}
+  
+    
+    nav ul{
+        display: flex;}
+
+nav ul li{flex: 1 1 100%;}
+
+.navigation {
+    display: flex;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+form{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+form fieldset{
+    border-radius: 10px;
+    background-color:#b6b3b3;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contact{font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.map{
+margin-bottom: 30px;
+display: grid;
+grid-template-columns: 1fr;
+width: 70%;
+margin-right: 0px;
+    margin-left: auto;
+}
+iframe{width: 100%;
+}
+
+.address{
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.social{
+    text-align: center;
+    }
+
+
+
+    }

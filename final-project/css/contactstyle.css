@@ -1,0 +1,242 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: .5em;
+}
+
+main{ max-width: 1200px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+}
+#head{font-size: 24px;
+    color: black;
+    display: flex;
+    background-color: #2f5597;
+    grid-template-columns: 2fr;
+}
+
+#head img{display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 25%;
+}
+#logo img{
+    width: 10px;
+}
+
+#headerimgleft{
+    display: none;
+}
+#headerintro{color: #b6b3b3;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    font-family: 'Noto serif';
+}
+#headerintro img{
+    display: inline;
+}
+
+#headerintro2{
+    font-size: 13px;
+    margin-top: 0px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #2f5597;
+    display: block;
+    padding: .75rem;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.active{
+    background-color: white;
+    border: 1px solid #2f5597;
+}
+nav a:visited{
+    color: #2f5597;
+background-color: blue;
+}
+
+nav{   text-align:center;   
+    background-color:#b6b3b3;
+    font-family: 'Quicksand', sans-serif;
+    color: #2f5597;
+    margin: 0 auto;
+}
+
+.navigation{
+    list-style:none;
+    text-align: center;
+    padding: 0px;
+}
+.navigation li:first-child{
+    display:block;
+}
+.navigation li{display:none;
+}
+
+.navigation a{
+    display: block;
+    color:#b6b3b3;
+    padding:.075rem;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color:#2f5597;;
+    background-color: white;
+    font-weight: 700;
+    border: 1px solid #2f5597;;
+}
+
+.responsive li{
+    display:block;
+    color: #2f5597;
+    background-color:#b6b3b3;
+}
+
+nav ul{list-style-type: none;
+        margin:0px;
+        padding:0px;
+        overflow:hidden;
+        font-family: 'Quicksand', sans-serif;
+
+}
+nav li{font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form{
+    margin-top: 30px;
+}
+
+form fieldset{
+    border-radius: 10px;
+    background-color:#b6b3b3;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+form legend{
+    color: #2f5597;
+    font-style: normal;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 1rem;
+    padding: 5px 1rem;
+    padding-top: 10px;
+    font-size: 1.1rem;
+    background-color:#b6b3b3;
+    border-radius: 6px;
+}
+
+
+.button {
+    border:none;
+    background-color: #2f5597;
+    color: white;
+    border-radius: .75em;
+    padding: .75rem 1.5rem;
+    margin: 10px;
+    max-width: 20rem;
+}
+
+
+
+
+.contact{font-size: 15px;
+margin-left: auto;
+margin-right: auto;}
+
+
+.address{
+    margin-bottom: 30px;
+}
+.address, .social, .map{
+    text-align: center;
+}
+.map{
+    width: 100%;
+}
+iframe {
+    width: 50%;
+    margin: 20px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;}
+ .fa-pinterest {
+        background: #cb2027;
+        color: white;
+      }
+
+
+footer{
+    text-align: center;
+    background-color: #2f5597;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-right:auto;
+    margin-left:auto;
+    flex: 0 1 100%;
+    display: block;
+    flex-flow: column;
+    align-items: center;
+    }
+footer a:link{color: #b6b3b3;
+    text-decoration: none;
+}
+footer a:visited{color: #b6b3b3;}
+
+.trademark{color: #b6b3b3;
+    padding-right: 6px;
+    padding-left: 6px;
+    }
+.trademark img{
+    width: 10px;
+}
+#me{color: #b6b3b3;
+    border-right: 1.5px solid #b6b3b3;
+    padding-right: 6px;
+    border-left: 1.5px solid #b6b3b3;
+    padding-left: 6px;
+   }
+#resources{
+    color: #b6b3b3;
+    padding-right: 6px;
+    padding-left: 6px;;
+}

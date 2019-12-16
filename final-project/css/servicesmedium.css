@@ -1,0 +1,98 @@
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+    
+    #head{
+        height: 150px;
+        font-size: 24px;
+    }
+
+    #head img{
+        width: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #headerintro{
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+#logo img{
+        width: 10px;
+    }
+
+#headerimgleft img{
+        display: flex;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+#headerimgleft{
+    width: 20%;
+    display: flex;
+
+}
+  
+    
+nav ul{
+        display: flex;}
+
+nav ul li{flex: 1 1 100%;}
+
+.navigation {
+    display: flex;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.serving{display: grid;
+    grid-template-columns: 1fr 1fr;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+}
+
+.hometemple img{margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;}
+.prayer img{
+    margin-left: auto;
+margin-right: auto;
+padding-right: 100px;
+}
+
+.bride {display: none;}
+
+.brighaminfo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    }
+
+.brighamaddress{display: grid;
+    grid-template-columns: 1fr;
+}
+.brighamservices{display: grid;
+    grid-template-columns: 1fr; 
+    border-left: 1px solid grey;
+}
+
+
+
+.contact{font-size: 18px;}
+
+
+
+    }

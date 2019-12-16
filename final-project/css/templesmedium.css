@@ -1,0 +1,96 @@
+/*tablet view*/
+@media only screen and (min-width: 37.5em) {
+    
+    #head{
+        height: 150px;
+        font-size: 24px;
+    }
+
+    #head img{
+        width: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #headerintro{
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+#logo img{
+        width: 10px;
+    }
+
+#headerimgleft img{
+        display: flex;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+#headerimgleft{
+    width: 20%;
+    display: flex;
+
+}
+  
+    
+nav ul{
+        display: flex;}
+
+nav ul li{flex: 1 1 100%;}
+
+.navigation {
+    display: flex;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+
+.provoinfo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    }
+.infoheading{
+    margin-bottom: 0px;
+}
+
+.provoservices{    border-left: 1px solid grey;
+}
+.provoord{display: grid;
+    grid-template-columns: 1fr; 
+    padding-top: 0px;
+}
+
+.breakdown{padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+#ordinance, #ordinance2, #ordinance3, #ordinance4 {text-align: left;}
+
+.provoaddress{display: grid;
+    grid-template-columns: 1fr;
+    border-right: 1px solid grey;
+}
+
+.closure{    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+.contact{font-size: 18px;}
+
+
+
+    }

@@ -1,0 +1,39 @@
+/*desktop view*/
+@media only screen and (min-width: 60em) {
+    
+
+#head{
+    font-size: 30px;
+}
+
+#head img{
+    width: 22%;}
+
+#logo img{
+        width: 10px;
+    }
+
+#headerimgleft img{
+        width: 100%;
+    }
+
+main{
+        max-width: 64rem;
+        margin: auto;
+    }
+
+form{max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+form label.sbs{
+        padding: .4rem 0;
+    }
+
+.form fieldset{margin-left: 70px;
+    margin-right: 70px;}
+
+.contact{font-size: 19px;}
+
+
+}
