@@ -118,16 +118,47 @@ nav li{font-size: 20px;
     font-family: 'Quicksand', sans-serif;
 }
 
+.reception, .missionary{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border:none;
+    background-color: #2f5597;
+    border-radius: .75em;
+    padding: .75rem 1.5rem;
+    margin: 10px;
+}
+.reception a, .missionary a{text-decoration: none;
+    color: white;
+    text-align: center;
+}
 
 
 
-.special{margin-right: auto;
+
+
+.specializedservices, .reception, .missionary{margin-bottom: 20px;}
+
+.special, .subpages{margin-right: auto;
     margin-left: auto;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 50px;
-    margin-top: 20px;
     text-align: left;
+}
+
+
+.infoheading{
+    color: #2f5597;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Noto serif';
+}
+.amenities{
+    padding-top: 0px;
 }
 
 

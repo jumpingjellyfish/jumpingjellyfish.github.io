@@ -17,9 +17,45 @@
             width: 100%;
         }
     
+.temples{display: grid;
+grid-template-columns: 1fr;
+margin-bottom: 15px;}
 
+.first, .third{    border: none;
+    padding-right: 0px;
+}
+.second, .fourth{
+    padding-left: 0px;
+}
+
+.provoinfo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;}
     
-    
+.provoservices{    border-left: 1px solid grey;
+    order: 1;
+}
+.provoord{display: grid;
+    grid-template-columns: 1fr; 
+    padding-top: 0px;
+    order: 2;
+}
+.provoaddress{
+    border-right: 1px solid grey;
+    order: 3;
+
+}
+.breakdown{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.closure{    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-bottom: 50px;
+}
     
     .contact{font-size: 19px;}
     

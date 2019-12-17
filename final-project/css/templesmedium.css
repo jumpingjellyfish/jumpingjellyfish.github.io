@@ -54,39 +54,61 @@ nav ul li{flex: 1 1 100%;}
 }
 
 
+.temples{display: grid;
+    grid-template-columns: 1fr 1fr;
+margin-top: 20px;
+margin-bottom: 50px;}
+
+.first, .third{    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.second, .fourth{
+    padding-left: 10px;
+}
+
 .provoinfo{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    margin-bottom: 50px;
+
     }
+
+
+
 .infoheading{
     margin-bottom: 0px;
 }
 
-.provoservices{    border-left: 1px solid grey;
+.provoservices{   margin-bottom: 50px;
+    border:none;
+    order: 1;
 }
 .provoord{display: grid;
     grid-template-columns: 1fr; 
     padding-top: 0px;
+    order:3;
 }
 
 .breakdown{padding-left: 40px;
     padding-right: 40px;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+
 }
 #ordinance, #ordinance2, #ordinance3, #ordinance4 {text-align: left;}
 
 .provoaddress{display: grid;
     grid-template-columns: 1fr;
-    border-right: 1px solid grey;
+    order:2;
+    margin-bottom: 50px;
 }
 
-.closure{    border-bottom: 1px solid grey;
+.closure{   
     margin-bottom: 50px;
+    text-align: left;
+    padding-left: 40px;
 }
 
 .contact{font-size: 18px;}
