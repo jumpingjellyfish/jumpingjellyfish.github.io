@@ -43,9 +43,9 @@ const apiURL3 = 'https://api.openweathermap.org/data/2.5/forecast?zip=83709,us&u
         fetch(apiURL4)
           .then((response) => response.json())
           .then((jsObject) => {
-            const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+            const imagesrc2 = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
             const desc = jsObject.weather[0].description;  // note how we reference the weather array
-            document.getElementById('icon2').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+            document.getElementById('icon2').setAttribute('src', imagesrc2);  // focus on the setAttribute() method
             document.getElementById('icon2').setAttribute('alt', desc);
                   })
         
@@ -73,9 +73,9 @@ const apiURL6 = 'https://api.openweathermap.org/data/2.5/weather?id=3936456&unit
         fetch(apiURL6)
   .then((response) => response.json())
   .then((jsObject) => {
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+    const imagesrc3 = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
     const desc = jsObject.weather[0].description;  // note how we reference the weather array
-    document.getElementById('icon3').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+    document.getElementById('icon3').setAttribute('src', imagesrc3);  // focus on the setAttribute() method
     document.getElementById('icon3').setAttribute('alt', desc);
           })
 
@@ -105,9 +105,9 @@ const apiURL7 = 'https://api.openweathermap.org/data/2.5/forecast?zip=89110,us&u
         fetch(apiURL8)
           .then((response) => response.json())
           .then((jsObject) => {
-            const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+            const imagesrc4 = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
             const desc = jsObject.weather[0].description;  // note how we reference the weather array
-            document.getElementById('icon4').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+            document.getElementById('icon4').setAttribute('src', imagesrc4);  // focus on the setAttribute() method
             document.getElementById('icon4').setAttribute('alt', desc);
                   })
         

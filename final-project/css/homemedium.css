@@ -63,11 +63,11 @@ align-items: center;
 .hometemple img{margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 100px;}
+   }
 .prayer img{
     margin-left: auto;
 margin-right: auto;
-padding-right: 100px;
+
 }
 
 .bride {display: none;}
@@ -78,7 +78,7 @@ padding-right: 100px;
     grid-template-columns: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 110px;
+    margin-bottom: 60px;
     padding-bottom: 100px;
     border-bottom: 1px solid grey;}
     

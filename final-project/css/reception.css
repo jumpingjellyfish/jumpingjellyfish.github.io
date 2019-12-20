@@ -7,6 +7,7 @@ main{ max-width: 1100px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    font-size: 17px;
 }
 
 header{
@@ -119,99 +120,89 @@ nav li{font-size: 20px;
 }
 
 
-.reservationBtn {
-    border:none;
-    background-color: #2f5597;
-    color: white;
-    border-radius: .75em;
-    padding: .75rem 1.5rem;
-    margin: 10px;
-    max-width: 20rem;
 
-}
-.homepageintro{margin: 20px;}
+.temples{margin-top: 30px;}
 
-
-.serving{margin-right: auto;
-    margin-left: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-    padding:10px;
-}
-
-.bride, .hometemple, .prayer{
-    background-color: grey;
-    margin: 10px;
-    padding-bottom: 30px;
-
-}
-.heading{
-    color: white;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Noto serif';
-}
-
-.bride img{
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.hometemple img{
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-.prayer img{
-    width: 45%;
-    margin-right: auto;
-    margin-left: auto;}
-
-.brighamheading{font-size:20px; 
+.provoheading{font-size:20px; 
     color: #2f5597;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
     padding: 10px;
     font-family: 'Noto serif';
+    font-size: 22px;
 }
 
-.brighampic img{
+.provopic img{
     width: 70%;
     text-align: center;
 }
-.brighampic{
+.recep img{width: 80%;
+    text-align: center;
+
+}
+.provopic{
     text-align: center;
     margin: 20px;
 }
-.brighaminfo{margin-right: auto;
+
+.banquet{margin-right: auto;
     margin-left: auto;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
+
+.renaissance, .greeting, .food{display: grid;
+    grid-template-columns: 1fr;}
+
+.foodoptions{color:#2f5597;
+font-size: 1.5rem; 
+font-family: 'Noto serif';
+margin-top: 80px;
+}
+.foodservice{margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+    text-align: left;}
+
 
 .infoheading{
     color: #2f5597;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
+    font-size: 1.25rem;
     padding: 10px;
-    font-family: 'Noto serif';
+    font-family: 'Quicksand', sans-serif;
 }
 
-.address{margin: 20px;
-}
+
+
+.templeclosure{font-size:20px; 
+    color: #2f5597;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Noto serif';}
+
+
+
 .contact{font-size: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;}
+
+.provoaddress, .social{
+    text-align: center;
+}
+
+.address{margin: 20px;
+}
 
 .address, .social{
     text-align: center;

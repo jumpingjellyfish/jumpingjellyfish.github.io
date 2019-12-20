@@ -55,21 +55,26 @@ nav ul li{flex: 1 1 100%;}
 
 
 .temples{display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 margin-top: 10px;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+margin-left: auto;
+    margin-right: auto;
+}
 
-.first, .third{    border-right: 1px solid grey;
+.first, .third{   
     padding-right: 10px;
 }
-.second, .fourth{
-    padding-left: 10px;
+.renaissance, .greeting, .food{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
-.provoinfo{
+.banquet{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -77,6 +82,24 @@ margin-bottom: 50px;}
 
     }
 
+.recep img{width: 100%;
+        text-align: center;
+    
+    }
+
+
+
+.foodservice{padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+        }
+.foods, .foodsetup{margin-left: auto;
+    margin-right: auto;
+}
 
 
 .infoheading{
@@ -97,9 +120,6 @@ margin-bottom: 50px;}
     padding-right: 40px;
 
 }
-#ordinance, #ordinance2, #ordinance3, #ordinance4, #ordinance5,
-#ordinance6, #ordinance7, #ordinance8, #ordinance9, #ordinance10, #ordinance11,
-#ordinance12, #ordinance13, #ordinance14, #ordinance15, #ordinance16 {text-align: left;}
 
 .provoaddress{display: grid;
     grid-template-columns: 1fr;
@@ -107,11 +127,6 @@ margin-bottom: 50px;}
     margin-bottom: 50px;
 }
 
-.closure{   
-    margin-bottom: 50px;
-    text-align: left;
-    padding-left: 40px;
-}
 
 .contact{font-size: 18px;}
 

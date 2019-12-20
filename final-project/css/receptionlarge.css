@@ -1,0 +1,46 @@
+/*desktop view*/
+@media only screen and (min-width: 60em) {
+    
+
+    #head{
+        font-size: 30px;
+    }
+    
+    #head img{
+        width: 22%;}
+    
+    #logo img{
+            width: 10px;
+        }
+    
+    #headerimgleft img{
+            width: 100%;
+        }
+    
+.temples{display: grid;
+grid-template-columns: 1fr;
+margin-bottom: 15px;}
+
+
+.banquet{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;}
+    
+
+.renaissance, .greeting, .food{display: grid;
+    grid-template-columns: 1fr; 
+    padding-top: 0px;
+    order: 2;
+}
+
+.closure{    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-bottom: 50px;
+}
+    
+    .contact{font-size: 19px;}
+    
+    
+    }
