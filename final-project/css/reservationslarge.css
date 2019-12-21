@@ -17,28 +17,10 @@
             width: 100%;
         }
     
-    .serving{display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            align-items: center;
-            padding-bottom: 80px;
-            padding-left: 90px;
-            padding-right: 90px;
-            padding-top: 50px;
+
+        form label.sbs{
+            padding: .4rem 0;
         }
-        
-    .bride{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .bride img{
-            width: 75%;
-            margin-right: auto;
-            margin-left: auto; }
-    .hometemple img{width: 80%;
-    padding: 0px;}
-    .prayer img{width: 70%;
-    padding: 0px;}
-    
     
     
     .contact{font-size: 19px;}

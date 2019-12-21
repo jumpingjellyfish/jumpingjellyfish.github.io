@@ -53,40 +53,53 @@ nav ul li{flex: 1 1 100%;}
     flex: 1 1 100%;
 }
 
-.serving{display: grid;
-    grid-template-columns: 1fr 1fr;
-margin-left: auto;
+form fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+form legend{    font-family: 'Quicksand', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+form label.top, form div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+form label.top input, form label.top select{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+form label.sbs{
+    margin-left: auto;
+    margin-right: auto;
+}
+form label.top input{text-align: left;
+   }
+
+
+
+
+.banquet{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 margin-right: auto;
+margin-left: auto;
 align-items: center;
 }
-
-.hometemple img{margin: 10px;
-    margin-left: auto;
+.renaissance{
+    padding: 20px;
     margin-right: auto;
-    padding-left: 100px;}
-.prayer img{
-    margin-left: auto;
-margin-right: auto;
-padding-right: 100px;
+margin-left: auto;
 }
+.recep img{width: 100%;
+    text-align: center;
 
-.bride {display: none;}
-
-.brighaminfo{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px;
-    }
-
-.brighamaddress{display: grid;
-    grid-template-columns: 1fr;
-}
-.brighamservices{display: grid;
-    grid-template-columns: 1fr; 
-    border-left: 1px solid grey;
 }
 
 

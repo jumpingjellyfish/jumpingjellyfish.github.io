@@ -36,9 +36,69 @@
     </nav>
     <main>
 
+<form><fieldset>
+    <legend>Personal Information</legend>
+        <label class="top">Full Name* <input type="text" name="fname" required pattern="[A-Za-z]"></label>
+    <label class="top">Email* <input type="email" name="email"
+        placeholder="someone@gmail.com" required></label>
+    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1234567891" required></label>
+    <label class="top">State or Country* <input type="text" name="homestate" required></label>
+    </fieldset>
 
+    <fieldset>
+    <legend>Inn Stay Reservation</legend>
+    <label class="top">Start Date of Stay* <input type="date" name="stormdate" required></label>
+    <label class="top">End Date of Stay* <input type="date" name="stormdate" required></label>
+    <label class="top">Total Days* <input type="number" name="days" required></label>
+    <label class="top">Type of Venue* <input list="venues" name="venues" required></label>
+        <datalist id="venues">
+            <option value="Couples Corner Suite">
+            <option value="Minimalist Couple Suite">
+            <option value="Simple Suite">
+            <option value="Like Home Suite">
+        </datalist>
+        
+    <label class="top">Location of Inn
+        <select name="region">
+            <option value="">Select Location:</option>
+            <option value="Baltimore">Bethesma, MD US</option>
+            <option value="Provo">Provo, UT US</option>
+            <option value="Las Vegas">Las Vegas, NV US</option>
+        </select>
+    </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Accomodations/Additional Requests</legend>
+        <textarea id="comments" name="comments"
+                rows="6" cols="50">
+            </textarea>
+</fieldset>
+<label><input type="submit" value="Reserve my room" class="submitBtn">
+</label>
+</form><br>
 
     
+
+        <div class="banquet">
+            <div class="renaissance">
+                <p class="infoheading">Service<br><br></p>
+                <div class="recep">
+                <img src="images/lasvegas.jpg" alt="photo of simple suite"/>
+                </div>
+            </div>
+            <div class="renaissance">
+                <p class="infoheading">Study<br><br></p>
+                <div class="recep">
+                <img src="images/study.jpg" alt="photo of simple suite"/>
+                </div>
+            </div>
+            <div class="renaissance">
+                <p class="infoheading">Weddings<br><br></p>
+                <div class="recep">
+                <img src="images/food3.jpg" alt="photo of simple suite"/>
+                </div>
+            </div>
+        </div>      
 
         <div class="contact">
             <div class="address">
